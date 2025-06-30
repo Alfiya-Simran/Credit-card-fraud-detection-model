@@ -116,20 +116,6 @@ You can interact with the fraud detection model using a simple and intuitive **S
 
 ---
 
-## 🚀 Deploy the App Online (Optional)
-
-You can make the app publicly accessible via Streamlit Cloud:
-
-🔗 Open Streamlit Cloud
-
-1. Log in with your GitHub account
-2. Click "New App"
-3. Select your repo: Credit-card-fraud-detection-model
-4. Set:
-   - Branch: main
-   - Main file path: app.py
-5. Click Deploy
-
 > ⚠️ Make sure model.pkl is committed to GitHub.
 
 > ❌ Do not upload creditcard.csv — it is intentionally excluded from the repo.
