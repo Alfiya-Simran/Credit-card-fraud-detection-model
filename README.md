@@ -114,8 +114,6 @@ You can interact with the fraud detection model using a simple and intuitive **S
 
 > Ensure model.pkl (the trained model) is present in the same directory. The dataset file creditcard.csv is not required for using the app.
 
----
-
 > ⚠️ Make sure model.pkl is committed to GitHub.
 
 > ❌ Do not upload creditcard.csv — it is intentionally excluded from the repo.
