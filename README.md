@@ -1,5 +1,7 @@
 # 💳 Credit Card Fraud Detection using Machine Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alfiya-Simran/Credit-card-fraud-detection-model/blob/main/CreditcardFraudDetection.ipynb)
+
 This project aims to detect fraudulent credit card transactions using machine learning techniques. It leverages a Random Forest Classifier along with preprocessing, visualization, and model evaluation steps to identify anomalies in transaction data.
 
 ---
@@ -64,12 +66,22 @@ scikit-learn
 ## 🚀 How to Run
 
 1. **Clone this repository or download the notebook.**
-2. **Place creditcard.csv in the root directory.**
-3. **Install dependencies:**
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-4. **Run the notebook via Jupyter or any compatible IDE.**
+2. **Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place `creditcard.csv` in the root directory.**
+3. **Install dependencies** (choose one):
+
+   - Using `requirements.txt` (recommended):
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+   - Or manually:
+
+     ```bash
+     pip install pandas numpy matplotlib seaborn scikit-learn
+     ```
+
+4. **Run the notebook using Jupyter or any compatible environment.**
 
 ---
 
