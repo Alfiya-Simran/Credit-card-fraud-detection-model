@@ -85,5 +85,56 @@ scikit-learn
 
 ---
 
+## 🌐 Streamlit Web App
+
+You can interact with the fraud detection model using a simple and intuitive **Streamlit web app**.
+
+### ▶️ Run the App Locally
+
+1. Install Streamlit (if not already installed):
+
+   ```bash
+    pip install streamlit
+    ```
+
+2. Launch the app:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+3. A browser window will open at localhost:8501.
+
+**💡 Features**
+
+- 📂 Upload transaction CSV files
+- 🧾 Enter transaction details manually
+- ⚠️ Predict fraud in real-time
+- 📊 View model confidence score
+
+> Ensure model.pkl (the trained model) is present in the same directory. The dataset file creditcard.csv is not required for using the app.
+
+---
+
+## 🚀 Deploy the App Online (Optional)
+
+You can make the app publicly accessible via Streamlit Cloud:
+
+🔗 Open Streamlit Cloud
+
+1. Log in with your GitHub account
+2. Click "New App"
+3. Select your repo: Credit-card-fraud-detection-model
+4. Set:
+   - Branch: main
+   - Main file path: app.py
+5. Click Deploy
+
+> ⚠️ Make sure model.pkl is committed to GitHub.
+
+> ❌ Do not upload creditcard.csv — it is intentionally excluded from the repo.
+
+---
+
 ## 📄 License
-**This project is licensed under the MIT License.**
+This project is licensed under the MIT License.
